@@ -1,7 +1,8 @@
 import React from 'react';
 
 //Importação das animações e das estilizações
-import {HomeContainer, Animation, GalleryAnimation, Letreiro, Letters} from './Home-styles';
+import {HomeContainer, Animation, GalleryAnimation, Letreiro} from './Home-styles';
+import {Link} from 'react-router-dom';
 import './animation.css';
 const Home = props =>{
     return(
@@ -16,6 +17,7 @@ const Home = props =>{
             </Animation>
             <GalleryAnimation>
                 Galeria das animações em reactjs
+                <Link to="/animation1">Animation 1</Link>
             </GalleryAnimation>
         </HomeContainer>
     );
