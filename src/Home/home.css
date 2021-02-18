@@ -1,0 +1,11 @@
+.galleryButtons{
+    color:#FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+
+    padding: 10px 20px;
+
+    font-weight: bolder;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

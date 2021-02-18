@@ -29,10 +29,15 @@ export const GalleryAnimation = styled.div`
     grid-rows:2/2;
 
     display:flex;
-    justify-content:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
     align-items:center;
 
     color: red;
+
+    padding:20px 0px;
+
+    border:1px solid #FFFFFF;
 `;
 
 export const Letreiro = styled.h1`
@@ -47,4 +52,12 @@ export const Letreiro = styled.h1`
     letter-spacing: -0.40rem;
 
     color: white;
+`;
+
+
+export const GalleryName = styled.div`
+    color:red;
+    text-align:center;
+
+    padding:20px 0px;
 `;
