@@ -2,10 +2,14 @@ import React from 'react';
 import './FlyingText.css';
 import './FlyingText';
 
+import Navbar from '../../components/header/header';
+
 
 const Animation = props => {
    
     return (
+    <>
+        <Navbar />
         <section id="sectionID">
                 <p></p>
                 <p></p>
@@ -468,6 +472,7 @@ const Animation = props => {
                 <p></p>
                 <p></p>
         </section>
+    </>
     );
    
 }
