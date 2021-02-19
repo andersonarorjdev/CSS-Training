@@ -21,7 +21,8 @@ const Home = props =>{
                     Animations
                 </GalleryName>
             <GalleryAnimation>
-                <Link className="galleryButtons" to="/FlyingText">FlyingText    </Link>
+                <Link className="galleryButtons" to="/FlyingText">FlyingText</Link>
+                <Link className="galleryButtons" to="/EmailValidator">Email Validator</Link>
             </GalleryAnimation>
         </HomeContainer>
     );
